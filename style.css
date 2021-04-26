@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #fbfefd;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.btn-ragular {
+  background: #069c54;
+  padding: 12px 18px;
+  margin-top: 25px;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 8px;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+  color: #fff;
+}
+.btn-ragular:hover {
+  background: #034625;
+  color: #fff;
+}
+
+/* Home start */
+.navbar {
+  background: #fbfefd;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #069c54;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #069c54;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .home-content {
+    padding-top: 60px;
+  }
+  .responsive-img {
+    width: 300px;
+  }
+}
+.hero {
+  min-height: 100vh;
+}
+.title {
+  color: #069c54;
+}
+main section {
+  padding-top: 7rem;
+}
+.about-img {
+  border-radius: 10px;
+}
+.img-container {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .img-container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0.5rem solid #069c54;
+    top: -1.3rem;
+    left: -1.3rem;
+    border-radius: 10px;
+    z-index: -2;
+  }
+  .home-img::before {
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+  }
+}
+.services-img {
+  fill: #069c54;
+  width: 64px;
+  height: 64px;
+  margin: 30px 0;
+}
+.menu-item {
+  background: #fff;
+  box-shadow: 0 2px 4px rgb(3 74 40 / 15%);
+  border-radius: 14px;
+  position: relative;
+  margin: 25px 0;
+}
+.menu-item img {
+  width: 128px;
+  margin: 25px 0;
+}
+.cart-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 8px 12px;
+  border-radius: 0;
+  border-radius: 10px 0 14px 0;
+}
+.app-link {
+  margin-top: 40px;
+}
+.app-img {
+  width: 150px;
+  margin-right: 10px;
+}
+.modal-content {
+  background: #fbfefd;
+}
+.footer-top {
+  margin-top: 7rem;
+}
+.fab {
+  margin-right: 20px;
+  color: #000;
+  transition: all 0.2s linear;
+  font-size: 22px;
+}
+.fab:hover {
+  color: #069c54;
+}
+.social-link {
+  margin-top: 25px;
+}
+.social-link a {
+  color: #707070;
+  transition: all 0.3s linear;
+}
+footer a {
+  transition: all 0.3s linear;
+}
+footer a:hover {
+  color: #000;
+}
